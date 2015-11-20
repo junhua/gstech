@@ -94,14 +94,12 @@ a.pure-button-primary {
     padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    opacity: 0.4;
-    
+    opacity: 1;
     position: absolute;
     top:20px;
+    background-image: url('http://s22.postimg.org/u7yey1tm9/banner.png');
 }
-.home-menu {
-    background: #2d3e50;
-}
+
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
@@ -190,11 +188,12 @@ a.pure-button-primary {
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     /*position: absolute;*/
-    top: 87%;
+    top: 10%;
     width: 100%;
-    min-height: 12%;
+    min-height: 30%;
     z-index: 2;
     background: white;
+  
 
 }
 
@@ -253,7 +252,7 @@ a.pure-button-primary {
     }
         .home-menu ul {
             float: right;
-            font-family: Impact, Charcoal, sans-serif;
+            font-family: 'Open Sans', 'Arial, Helvetica, sans-serif';
             font-size: 18px;
         }
 

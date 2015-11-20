@@ -8,6 +8,21 @@
 	max-width: 100%;
 }
 
+.slider-img {
+	max-width: 100%;
+	max-height: 70%;
+}
+
+.content-text {
+	padding:10px;
+	margin: 10px;
+	font-family:'Open Sans';
+
+}
+.navigation {
+	opacity=0.4;
+	background-color: #002C6B;
+}
 .logo {
 	max-width: 100%;
 	height: auto;
@@ -35,11 +50,12 @@
   display: block;
 }
 
-.hover01 figure img {
+/*.hover01 figure img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	size:fixed;
 }
 .hover01 figure:hover img {
 	-webkit-transform: scale(1.3);
@@ -48,9 +64,9 @@
 
 figure {
 	width: 100%;
-	height: auto;
+	height: 200px;
 	margin: 0 0;
-	padding: 0;
+	padding: 10px;
 	background: #fff;
 	overflow: hidden;
 	z-index: 3;
@@ -60,7 +76,7 @@ figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
 	z-index: 3;
-}
+} */
 
 div.center {
     margin:0 auto;
