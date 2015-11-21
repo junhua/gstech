@@ -13,16 +13,10 @@
 	max-height: 70%;
 }
 
-.content-text {
-	padding:10px;
-	margin: 10px;
-	font-family:'Open Sans';
+.navig-item-selected {
+	color:'#ffffff';
+}
 
-}
-.navigation {
-	opacity=0.4;
-	background-color: #002C6B;
-}
 .logo {
 	max-width: 100%;
 	height: auto;
@@ -30,8 +24,24 @@
 	z-index: 5;
 }
 
-.titles {
-	margin:auto;
+.content-mainpage {
+	position:absolute;
+	top:80%;
+	background-image: url('http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg');
+	background-size: 100%;
+	background-repeat: repeat-y;
+	width:100%;
+
+	border-top-style: double;
+	border-top-width: 5px;
+	border-top-color: '#303030';
+}
+
+.content-text {
+	padding:10px;
+	margin: 10px;
+	font-family:'Open Sans';
+}
 
 }
 .tooltip-wrap {
