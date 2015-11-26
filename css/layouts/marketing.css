@@ -95,9 +95,6 @@ a.pure-button-primary {
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     opacity: 1;
-    position: absolute;
-    top:20px;
-    background-image: url('http://s22.postimg.org/u7yey1tm9/banner.png');
 }
 
 .pure-menu.pure-menu-fixed {
@@ -105,8 +102,6 @@ a.pure-button-primary {
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
-    position:absolute;
-    top:20px;
 }
 
 .home-menu.pure-menu-heading {

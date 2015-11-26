@@ -13,13 +13,12 @@
     <link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="css/layouts/grids-responsive-min.css">
     <link rel="stylesheet" type="text/css" href="css/layouts/pure-min.css">
-    <link rel="stylesheet" type="test/css" href="css/effects/hover.css">
     <link rel="stylesheet" type="test/css" href="css/styles.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="custom-menu-wrapper">
+   <!--     <div class="custom-menu-wrapper">
             <div class="pure-menu custom-menu custom-menu-top">
                 <a href="#" class="pure-menu-heading custom-menu-brand">Brand</a>
                 <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
@@ -33,21 +32,21 @@
                 </ul>
             </div>
         </div>
+-->
 
 
-
-        <!--<div class="header">
-            <div class="logo-container">
+        <div class="pure-g header">
+            <div class="pure-u-sm-1-2 pure-u-xs-1-1 logo-container">
                 <a href="index.html"><img class="logo" src="img/common/logo_sfa.png"></a>
             </div>
 
-            <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-                <ul class="">
-                    <li class="navig-item-selected pure-menu-item"><a href="index.html" class="pure-menu-link">HOME</a></li>
-                    <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">CONTACT</a></li>
+            <div class="pure-u-sm-1-2 pure-u-xs-1-1 nav-item">
+                <ul id="navigation-bar">
+                    <li id="navigation-bar" class="pure-menu-item"><a href="contact.html" class="pure-menu-link">CONTACT</a></li>
+                    <li id="navigation-bar" class="navig-item-selected pure-menu-item"><a href="index.html" class="pure-menu-link">HOME</a></li>
                 </ul>
             </div>
-        </div> -->
+        </div>
 
 
 
@@ -61,8 +60,9 @@
         <div class="pure-g content-mainpage">
             <div class="pure-u-1-1 home-text">
                 <h2 class="content-heading">GS TECH - CHANGE THE GAME</h2>
-                <div class="pure-u-8-12 content-text">
-                    <p>Gilmour Space Technologies was formed in 2012 to develop technologies related to space tourism. We have been developing space simulators and replicas for our related company Gilmour Space Corporation to use in their space academy and discovery center. In 2015 we began development of a hybrid rocket program to use on a sub orbital passenger capsule and other space payload systems. In 2014 we partnered with Singapore University of Technology and Design to develop mid to large scale UAV’s for civilian and military applications.</p>
+                <div id="content-text" class="pure-u-8-12 content-text">
+                    <p class="">Gilmour Space Technologies was formed in 2012 to develop technologies related to space tourism. We have been developing space simulators and replicas for our related company Gilmour Space Corporation to use in their space academy and discovery center. In 2015 we began development of a hybrid rocket program to use on a sub orbital passenger capsule and other space payload systems. In 2014 we partnered with Singapore University of Technology and Design to develop mid to large scale UAV’s for civilian and military applications.</p>
+                </div>
                 </div>
             </div>
 
@@ -70,19 +70,36 @@
             <div class="content-home pure-u-1-1">
                 <div class="pure-u-1-24"> <p>&nbsp;</p> </div>
                 
-                <a href="space_replica.html"><div id="subpage-title" style="background-image:url('img/content/space_simulator_1.png')" class="pure-u-sm-1-1 pure-u-md-7-24">
-                	<img id="subpage-title-img" class="responsive-img bottom" src="img/content/space_simulator_2.png">
-                </div></a>
+                <div class="pure-u-sm-1-1 pure-u-md-7-24">
+                    <a href="space_replica.html"><div id="subpage-title" style="background-image:url('img/content/Space-technology-154_sqr.jpg')" class="pure-u-1-1">
+                	<img id="subpage-title-img" class="responsive-img bottom" src="img/content/Space-technology-154_sqr_yel.jpg">
+                    </div></a>
+                    <div class="pure-u-1-1 subpage-text-title">
+                    <p>Space Replications and Simulators</p>
+                    </div>
+                </div>
 
-                <a href="spacereplica.html"><div id="subpage-title" style="background-image:url('img/content/space_simulator_1.png')" class="pure-u-sm-1-1 pure-u-md-7-24">
-                	<img id="subpage-title-img" class="responsive-img bottom" src="img/content/space_simulator_2.png">
-                </div></a>
-
-                <a href="spacereplica.html"><div id="subpage-title" style="background-image:url('img/content/space_simulator_1.png')" class="pure-u-sm-1-1 pure-u-md-7-24">
-                	<img id="subpage-title-img" class="responsive-img bottom" src="img/content/space_simulator_2.png">
-                </div></a>
+                <div class="pure-u-sm-1-1 pure-u-md-7-24">
+                    <a href="rocket_engines.html"><div id="subpage-title" style="background-image:url('img/content/space-technology-02_sqr.jpg')" class="pure-u-1-1">
+                	<img id="subpage-title-img" class="responsive-img bottom" src="img/content/space-technology-02_sqr_yel.jpg">
+                    </div></a>
+                    <div class="pure-u-1-1 subpage-text-title">
+                        <p>Hybrid Rocket Engines</p>
+                    </div>
+                </div>
+                
+                <div class="pure-u-sm-1-1 pure-u-md-7-24">
+                    <a href="aerial_vehicles.html"><div id="subpage-title" style="background-image:url('img/content/UAV_sqr.jpg')" class="pure-u-1-1">
+                    	<img id="subpage-title-img" class="responsive-img bottom" src="img/content/UAV_sqr_org.jpg">
+                    </div></a>
+                    <div class="pure-u-1-1 subpage-text-title">
+                        <p>Unmanned Aerial Vehicles</p>
+                    </div>
+                </div>
         	</div> 
- 
+
+
+                
 
 
             <div class="footer pure-u-1-1">
@@ -98,8 +115,8 @@
                     </fieldset>
                     </form>
                 </div>
-
-                <div class="pure-u-1-3">
+                <div class="pure-u-1-12"><p>&emsp;</p></div>
+                <div class="pure-u-1-4">
                     <h4>Contact Us</h4>
                     <p> Gilmour Space Corporation<br> 
                         1 Pimpama-Jacobs Well Rd<br>

@@ -1,11 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat|Lato);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+@media screen and (min-width: 48em) {
+	#navigation-bar {
+		float: none;
+		list-style-type: none;
+		display: inline;
+		margin: 0 auto;
+		padding: 0;
+		vertical-align: middle;
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+	}
+
+	.content-heading {
+		font-size: 150%;
+	
+	}
+
+	#content-text {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+}
 p {
 	margin:0px;
+}
+
+h4 {
+	margin-bottom: 0;
 }
 #subpage-title {
   	position:relative;
  	margin:0 auto;
- 	background-color: white;
+ 	/*background-color: white;*/
  	background-size: contain;
  	background-repeat: no-repeat;
  	border-style: solid;
@@ -34,11 +63,6 @@ p {
 
 }
 
-.container {
-	background-color: white;
-	background-repeat: repeat;
-}
-
 .slider {
 	border-top-style: solid;
 	border-top-width: 2px;
@@ -58,8 +82,11 @@ p {
 }
 
 .footer {
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: gray;
 	font-size: 70%;
-	background-color: white;
+
 }
 .subscribe-form {
 	padding:10px;
@@ -70,23 +97,35 @@ p {
 
 }
 
+#navigation-bar {
+	float: right;
+	list-style-type: none;
+	display: inline;
+	margin: 0 auto;
+	padding: 0;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 
-
-#container {
-	min-height: 100%;
 }
 
+
+.container {
+	padding-top: 15px;
+	min-height: 100%;
+	background-image: url('http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/857/full/tileable-classic-nebula-space-patterns-3.jpg');
+}
+	
 h2 {
 	margin: 0px;
 }
 
 .logo-container {
 	opacity: 1;
-	position: absolute;
-	top:20px;
 	z-index: 5;
 	max-width: 100%;
 	padding:8px;
+
 }
 
 
@@ -111,27 +150,30 @@ h2 {
 .logo {
 	max-width: 100%;
 	height: auto;
-	opacity: 1;
-	z-index: 5;
 }
 
-.content-home {
+.subpage-text-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
 	padding-bottom: 50px;
+	margin:7px;
 }
 
 .content-subpage {
-	background-color: white;
+	/*background-color: white;*/
 }
 
 .content-heading {
 	padding-top:50px;
 
-	color: black;
+	color: white;
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 400;
 	font-size:230%;
 	letter-spacing: 0.05em;
+	line-height: 1em;
 
     text-rendering: geometricPrecision;
     font-smoothing: antialiased;
@@ -141,7 +183,7 @@ h2 {
 }
 
 .content-mainpage {
-	width:100%;
+	max-width: 100%;
 	margin-top: 0;	
 }
 
@@ -151,13 +193,12 @@ h2 {
 
 .content-text {
 	padding-top: 50px;
-	padding-right: 150px;
-	padding-left: 150px;
+	padding-right: 50px;
+	padding-left: 50px;
 
-	color: black;
-	font-size: 130%;
-	letter-spacing: 0.1em;
-	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 17px;
+	font-family: 'PT Sans', sans-serif !important;
 	text-rendering: geometricPrecision;
     font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
@@ -172,9 +213,17 @@ h2 {
 	
 }
 .home-text {
-	background-color: white;
+	/*background-color: white;*/
 	border-top:none;
 	padding-top: none;
 	padding-bottom: 40px;
 
+}
+
+.nav-item {
+	text-align: center;
+	height: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+	color: white;
 }
