@@ -1,5 +1,6 @@
 // SCRIPT FOR SLIDER
 
+
 $(document).ready(function() {
     $('.slider').slick({
 
@@ -13,3 +14,4 @@ $(document).ready(function() {
 
     });
 });
+
