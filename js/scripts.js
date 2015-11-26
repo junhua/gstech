@@ -1,6 +1,5 @@
 // SCRIPT FOR SLIDER
 
-
 $(document).ready(function() {
     $('.slider').slick({
 
@@ -15,3 +14,8 @@ $(document).ready(function() {
     });
 });
 
+// $(document).ready(function() {
+//     $("#load-sim").on("click", function() {
+//         $("#container").load("/contact.html");
+//     });
+// });
