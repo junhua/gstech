@@ -7,6 +7,7 @@
 h2 {
 	margin: 0px;
 }
+
 .logo-container {
 	opacity: 1;
 	position: absolute;
@@ -16,8 +17,10 @@ h2 {
 	padding:8px;
 }
 
+
 .slider-container {
 	max-height: 80vh;
+	margin-bottom: 0;
 }
 
 .slider-img {
@@ -41,7 +44,7 @@ h2 {
 }
 
 .content-mainpage {
-	position:absolute;
+	/*position:absolute;*/
 	top:85%;
 	background-color: black;
 	background-size: 100%;
