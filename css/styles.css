@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Lato);
-
+p {
+	margin:0px;
+}
 #subpage-title {
   	position:relative;
  	margin:0 auto;
+ 	background-color: white;
  	background-size: contain;
  	background-repeat: no-repeat;
  	border-style: solid;
@@ -32,7 +35,7 @@
 }
 
 .container {
-	background-image: url('http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=34591103');
+	background-color: white;
 	background-repeat: repeat;
 }
 
@@ -56,6 +59,7 @@
 
 .footer {
 	font-size: 70%;
+	background-color: white;
 }
 .subscribe-form {
 	padding:10px;
@@ -111,7 +115,9 @@ h2 {
 	z-index: 5;
 }
 
-
+.content-home {
+	padding-bottom: 50px;
+}
 
 .content-subpage {
 	background-color: white;
@@ -119,7 +125,6 @@ h2 {
 
 .content-heading {
 	padding-top:50px;
-
 
 	color: black;
     text-align: center;
@@ -137,17 +142,18 @@ h2 {
 
 .content-mainpage {
 	width:100%;
-	margin-top: 0;
-	
+	margin-top: 0;	
+}
+
+.content-subpage {
+	padding-bottom: 50px;
 }
 
 .content-text {
-	padding-top: 30px;
-	padding-right: 100px;
-	padding-left: 100px;
-	
-	margin-left: 40px;
-	margin-right: 40px;
+	padding-top: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+
 	color: black;
 	font-size: 130%;
 	letter-spacing: 0.1em;
@@ -159,6 +165,12 @@ h2 {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
+.content-image {
+	vertical-align: text-top;
+	padding-top: 50px;
+	padding-left: 150px;
+	
+}
 .home-text {
 	background-color: white;
 	border-top:none;
