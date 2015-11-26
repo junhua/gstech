@@ -55,7 +55,8 @@ label {
 .pure-form label {
     margin: 1em 0 0;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 18px;
+    color: white;
 }
 
 .pure-form input[type] {
@@ -64,6 +65,7 @@ label {
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
+    padding-bottom: 3px;
 }
 
 /*
@@ -71,6 +73,7 @@ label {
  * I want my pure-button elements to look a little different
  */
 .pure-button {
+    border-top:3px;
     background-color: #1f8dd6;
     color: white;
     padding: 0.5em 2em;
@@ -216,9 +219,7 @@ a.pure-button-primary {
 }
 
 /* This is the class used for the footer */
-.footer {
-    background: #111;
-}
+
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
