@@ -22,6 +22,9 @@
 	opacity: 1;
 }
 
+.background-img-contain {
+	background-size: contain;
+}
 .subpage-title {
 	width:100%; 
 }
