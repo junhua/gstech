@@ -8,12 +8,20 @@
     <meta name="description" content="A layout example that shows off a responsive product landing page.">
     <title>GS Tech &ndash; Change The Game</title>
     <!--CSS-->
-    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"> -->
-    <link rel="stylesheet" href="css/layouts/marketing.css">
     <link rel="stylesheet" type="text/css" href="static/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="css/layouts/grids-responsive-min.css">
-    <link rel="stylesheet" type="text/css" href="css/layouts/pure-min.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
     <link rel="stylesheet" type="test/css" href="css/styles.css">
 </head>
 
@@ -49,12 +57,12 @@
         </div>
 
 
+            <div class="slider" style="max-width:100%">
+                <div> <img class="slider-img" src="img/sliders/Rigel_16_9.jpg"></div>
+                <div> <img class="slider-img" src="img/sliders/space-technology-02_cropped_2_16_9.jpg"></div>
+                <div> <img class="slider-img" src="img/sliders/RASTA_Shadow_worx.jpg"></div>
+            </div>
 
-                <div class="slider" style="max-width:100%">
-                    <div> <img class="slider-img" src="img/sliders/space-technology_cropped_2.jpg"></div>
-                    <div> <img class="slider-img" src="img/sliders/space-technology-02_cropped_2.jpg"></div>
-                    <div> <img class="slider-img" src="img/sliders/Space-technology-154_cropped_2.jpg"></div>
-                </div>
 
 
         <div class="pure-g content-mainpage">
@@ -66,19 +74,20 @@
                     </p>
                     <br>
                     <p>
-                        Among the static displays and full-motion simulators, our signature simulators include embedded electronics and mechatronics on 3- to 6-degree motion-platforms.  Fabrication techniques include welding, composite moulding, 3D-printing and painting; using steel, aluminium, fibreglass, carbon fibre, fabrics and plastics, among others.    
+                        Among the static displays and full-motion simulators, our signature simulators include embedded electronics and mechatronics on 3- to 6-degree motion-platforms.  Fabrication techniques include welding, composite moulding, 3D-printing and painting; using steel, aluminium, fibreglass, carbon fibre, fabrics and plastics, among others. 
                     </p>
                 </div>
             </div>
         
         </div>
             <div class="pure-g">
-            <div class="pure-u-md-1-2 pure-u-sm-1 images" style="padding:50px">
-                    <img class="responsive-img" src="img/content/RIGEL_in_space.jpg"> 
+            <div class="pure-u-md-5-12 pure-u-sm-1 images" style="padding:50px">
+                    <img class="responsive-img" src="img/content/Rigel.jpg"> 
             </div>
-            <div class="pure-u-md-1-2 pure-u-sm-1 images" style="padding:50px">
-                    <img class="responsive-img" src="img/content/RIGEL_and_Mission_Control.jpg"> 
+            <div class="pure-u-md-7-12 pure-u-sm-1 images" style="padding:50px">
+                    <img class="responsive-img" src="img/content/De Havilland Puss Moth Sim.jpg"> 
             </div>
+            
         </div>
         
                 <div class="footer pure-g">
